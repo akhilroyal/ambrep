@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="d1"></div>
+    <div id="d2">This is Js sesssion</div>
+
+    <script>
+        //  how to get output in js 
+        //1. documnent.write()
+        document.write("This is output of document.write()");
+
+        //2.window.alert()
+        // window.alert("Hello Friends,How are You All");
+
+        //3. DOM 
+        document.getElementById("d1").innerHTML = "Hi This is Panchashil M. Wankgede";  // set value in html element 
+        var val = document.getElementById("d2").innerHTML;   // getting value from html element 
+
+        document.getElementById("d1").style.color = "green";
+        document.getElementById("d1").style.fontSize = "20px";
+
+        //4. console.log()
+        console.log(val);
+
+        var x;
+        x = 10;
+        x = 0.5;
+        x = 54654656;  //1.number datatype 
+        console.log(x);
+
+        var name = "Good Afternoon"; //2.string 
+        console.log(name)
+
+        var cond = true;     //3.boolean 
+        console.log(cond);
+
+         //4.array datatype
+        var days = ["Sun", "Mon", "Tue", "Wed", "Thus", "Fri", "Sat"]; 
+        console.log(days)
+        console.log(days[3]);
+       
+         //5.object datatype
+        var emp={         
+            empId:101,
+            empName:"Rahul",
+            Salary:65000
+        }
+       console.log(emp.empName);
+      
+       // 6.undefine datatype
+       var y;  
+      console.log(" y data type:", typeof(y)); 
+      
+      //7.null 
+      var z=null;
+      console.log(" z data type:", typeof(z)); 
+
+      // use of exponentiation operator(**)
+       var s=5**3;
+       console.log(s)
+      // use of assignment operator 
+       var no =100;
+       console.log(no);
+       var no1=500,no2=200;
+      //  no1=no1+no2;
+            //or
+        no1+=no2;  
+       console.log(no1);
+      
+       var num1=20,num2=30,num3="Hello";
+        console.log(num1+num2);
+        console.log(num1+num3);
+        console.log(num1+num2+num3);
+        console.log(num1+num3+num2);
+        console.log(num3+num1+num2);
+        console.log(num1+"5");
+        console.log(num1-"5");
+        console.log(num1-"A");
+
+    </script>
+
+</body>
+
+</html>
