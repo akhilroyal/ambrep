@@ -1,0 +1,66 @@
+29/10/2021
+Typescript:- it is superset of javascript.
+           - it strict type language
+           -it is compile language 
+
+s/w prerequit 
+1.nodejs : it provide environment to execute typescript code.
+2.npm(node package maqnager): it is repository,by using it we can install external or thired party module.
+3.typescript compiler.
+4.editor(vs).
+
+node -v // check nodejs 
+npm -v // check npm
+tsc -v // to check ts 
+
+npm install -g typescript  // to install typescript 
+
+*how to execute ts file 
+step-1: compile ts file => tsc filename.ts (after successfully compilation it conver it into plain js file)
+step-2: execute js file => node filename.js 
+
+*Data types in typescript 
+1.number
+2.string
+3.boolean
+4.array
+5.tupple
+6.enum
+7.union 
+8.any
+
+*oops concept 
+1.class:it is collection of data member and member function and constructor.
+         -class must start with capital letter.it is also called as user define datatype
+   -this=> this keyword represent current.      
+2.object: it os instance of class.creating class object we can access class data memeber outside.
+   -constructor: it is special member function of class,it invoke when an onject of class initialize.
+                -in js constructor name must constructor only. 
+
+3.abstraction:hidding unneccessary data from user.
+     public: it will accessible everywhere in programe.
+     protected: it will allow us to access class property  methode in same class as well as in child only not outside class
+     private: it allow us to access class property and methode in same class not in child class or outside class.      
+
+4.encapsulation: wrapping data into single unit.
+
+5.inheritance:accessing property and methode from parent to child class,
+if you want to acces property from parent to child we exnted keyword.
+ - super(): it represent parent class constructor in child constructor and it must be first statment in child constructor.
+6.polymorphism : it is ability to more than one form 
+
+7.interface:it is signature of class. it has constant fiels and abstract methode.it has child whoe is responsible for 
+ implenting interface.
+
+*get and set methode: if we want to modify private data for that we use get and set.
+                     - get and set methode must have same name in programe.
+                     if you want to compile get and set methide programe then use fallowing command
+                      tsc -t es5 filename.ts     
+
+*Module concept: in this we can access property  ,class ,or data from one file to another 
+                - for that we use import and export.
+
+
+
+
+
